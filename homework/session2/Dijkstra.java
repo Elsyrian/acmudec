@@ -42,9 +42,7 @@ public class Dijkstra {
     static void dijkstra(int start)
     {
         
-        //Comparator<int []> comparator = new ArrComparator();
-        //PriorityQueue<int[]> Queue = new PriorityQueue<int[]>(total,comparator);
-    
+      
         int [] a,tmp;
         int i,j;
 
@@ -110,7 +108,7 @@ public class Dijkstra {
            a = in.nextInt();
            b = in.nextInt();
            d = in.nextInt();
-           System.out.println(Integer.toString(a)+" "+Integer.toString(b)+" "+Integer.toString(d) );
+         //  System.out.println(Integer.toString(a)+" "+Integer.toString(b)+" "+Integer.toString(d) );
            Graph[a][b] = d;
            Graph[b][a] = d;
        }
