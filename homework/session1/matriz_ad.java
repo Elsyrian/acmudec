@@ -1,6 +1,7 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * bfs , matriz de adyacencia y mi promia version de una cola, no muy util
+ * pero, la hice cuando aprendia java xD
+ * autor: Alejandro Pinto
  */
 
 
